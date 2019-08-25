@@ -13,5 +13,5 @@ end
   
 def move(array, index, value = "X")
   puts array[0] = "X" 
-  puts array[4] = "O"
+  
 end   
