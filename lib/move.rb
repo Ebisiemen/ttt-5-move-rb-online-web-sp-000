@@ -12,10 +12,5 @@ def input_to_index(user_input)
 end   
   
 def move(array, index, value = "X")
-  def update_array_at_with(array, index, value)
-    array = [" ", " ", " ", " ", " ", " "," "," "," "]
-    array[index] = value 
-    update_array_at_with(array, 0, "X")
     array[0] = "X" 
-  end   
 end   
