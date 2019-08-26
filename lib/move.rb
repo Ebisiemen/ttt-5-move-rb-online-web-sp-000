@@ -16,5 +16,6 @@ def move(array, index, value = "X")
     array = [" ", " ", " ", " ", " ", " "," "," "," "]
     array[index] = value 
     update_array_at_with(array, 0, "X")
+    array[0] = "X" 
   end   
 end   
