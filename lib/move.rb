@@ -12,9 +12,10 @@ def input_to_index(user_input)
 end   
   
 def move(array, index, value = "X")
-  board = [" ", " ", " ", " ", " ", " "," "," "," "]
   def update_array_at_with(array, index, value)
+    board = [" ", " ", " ", " ", " ", " "," "," "," "]
     array[index] = value 
     update_array_at_with(board, 0, "X")
+    array[0] = "X" 
   end   
 end   
